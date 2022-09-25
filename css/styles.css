@@ -737,3 +737,7 @@ transition: color 250ms var(--timing-function);
 .close-icon {
     fill: var(--secondary-accent-color);
 }
+
+.no-scroll {
+    overflow: hidden;
+}
