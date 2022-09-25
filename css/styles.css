@@ -192,6 +192,7 @@ transition: color 250ms var(--timing-function);
     margin: 0;
     bottom: -1px;
     left: 0;
+    z-index: 9999;
     
     height: 4px;
     width: 100%;
