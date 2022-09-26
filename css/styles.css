@@ -467,6 +467,10 @@ transition: color 250ms var(--timing-function);
     padding: 20px 24px;
 }
 
+.product-descr-thumb p {
+    color: var(--secondary-text-color-theme-light);
+}
+
 .filter-product-title {
     font-weight: 700;
     font-size: 18px;
@@ -507,9 +511,11 @@ transition: color 250ms var(--timing-function);
     width: 322px;
 }
 
-.filter-product-list-item:hover .product-overlay {
+.filter-product-list-item:hover .product-overlay,
+.filter-product-list-item:focus-within .product-overlay {
     transform: translateY(0);
 }
+
 
 /*logo+pics*/
 
